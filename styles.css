@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    color: black;   
+}
+
+.title{    
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 100px; */
+}
+
+.thing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#submitBtn{    
+    width: 275px;
+    height: 35px;   
+    border:none;
+    margin: 40px;
+}
+
+.boarderBox{    
+    width: 400px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;    
+}
+
+
+.center{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align:  center; */
+}
+
+.anchorleft{
+    font-weight: 400;
+}
+
+.separator{    
+    margin-top: 50px;
+    text-align: center;   
+    height: 2px;
+    width: 90%;
+}
+
+.wider{
+    width: 275px;
+    height: 35px;   
+    border:none;   
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+h2{
+  text-align: center;
+  margin: 50px;
+ 
+}
+
+.btn { 
+  border: none; 
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.alert-danger{
+    margin: 5px;
+    font-weight: bold;
+}
+
+.account_created{
+    font-weight: bold;
+    margin: 5px;    
+}
+
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;   
+    width: 75px;   
+}
+
+.button:hover{
+    
+    transition: all ease-in-out 500ms;
+}
+
+.register_button{    
+    display: flex;
+    flex-direction: column;    
+    width: 400px;
+    padding-bottom: 20px;
+    margin-top: 300px;
+    margin-bottom: 100px;    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.new_button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+    width: 75px;
+    padding: 0.5rem;   
+}
+
